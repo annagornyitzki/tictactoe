@@ -1,4 +1,4 @@
-# tictactoe
+# tic tac toe
 
 A classic Tic Tac Toe game where you play as **X** against a basic AI (**O**). The game features a clean interface, restart functionality, and automatic board reset on win or tie.
 

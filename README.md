@@ -3,6 +3,9 @@
 A classic Tic Tac Toe game built with HTML, CSS, and Javascript.
 You play as **X** against a basic AI (**O**). The game features a clean interface, restart functionality, and automatic board reset on win or tie.
 
+<div align="center">
+  <img src="https://github.com/annagornyitzki/tictactoe/blob/main/tictactoe-gameplay.png?raw=true" width="550"/>
+</div>
 
 Features
 - Play as X against a random-move AI (O)

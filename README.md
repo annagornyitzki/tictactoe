@@ -1,28 +1,37 @@
-# tic tac toe
+# Tic Tac Toe
 
-A classic Tic Tac Toe game built with HTML, CSS, and Javascript.
-You play as **X** against a basic AI (**O**). The game features a clean interface, restart functionality, and automatic board reset on win or tie.
+A classic Tic Tac Toe game built with HTML, CSS, and JavaScript.
 
 <div align="center">
   <img src="https://github.com/annagornyitzki/tictactoe/blob/main/tictactoe-gameplay.png?raw=true" width="550"/>
 </div>
 
-Features
-- Play as X against a random-move AI (O)
-- Stylish, responsive design
-- "Restart" button to start a new game at any time
-- Board automatically resets after a win or tie
-- Visual highlight for the winning line
+**Controls**
+- Click any empty tile to place your **X**
+- Press **Restart** to start a new game
 
 Play it here [Live Game](https://annagornyitzki.github.io/tictactoe/)
 
-## How to Play
+## Overview
+This project is a simple implementation of the traditional Tic Tac Toe game. You play as **X** against a basic AI (**O**) that randomly selects available tiles. The objective is to align three of your marks horizontally, vertically, or diagonally before the AI does.
 
-1. Click any empty tile to place your X.
-2. The AI (O) will make its move automatically.
-3. The game ends when someone wins or the board is full (tie).
-4. Click the **Restart** button to start a new game at any time.
-   
+## Project Structure
+- `index.html`: The main HTML file that serves as the entry point for the game.
+- `tictactoe.css`: Contains the styles for the game board and UI elements.
+- `tictactoe.js`: The main JavaScript file that handles game logic and AI behavior.
+
+## Game Logic
+The game logic is implemented in `tictactoe.js`, which includes:
+- **Player and AI Moves**: Handles tile selection and random move generation for the AI.
+- **Win and Tie Detection**: Checks for all winning combinations or a full board to determine the result.
+- **Board Reset**: Automatically resets the game state after a win or tie.
+
+## UI/UX Design
+The user interface and experience focus on clarity and playability. Key elements include:
+- **Responsive Layout**: Ensures a clean display across devices.
+- **Winning Highlight**: The winning combination is visually emphasized.
+- **Restart Button**: Immediate access to start a new round of play.
+
 ## Customization
 
 - **AI Difficulty:** The AI currently picks random empty tiles. You can improve it by adding smarter logic in `aiMove()` in [`tictactoe.js`](tictactoe.js).
